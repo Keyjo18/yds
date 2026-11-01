@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>YDS Formu</title>
+<meta name="description" content="YDS için günlük phrasal verb, edatlı kalıp ve cloze çalışması.">
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141315" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="YDS Formu">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..700&family=IBM+Plex+Mono:wght@500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app" id="app"></main>
+<nav class="nav" id="nav"><div class="in">
+  <button data-nav="today"><span class="bub"></span>Bugün</button>
+  <button data-nav="archive"><span class="bub"></span>Arşiv</button>
+  <button data-nav="settings"><span class="bub"></span>Ayarlar</button>
+</div></nav>
+<script src="data/phrasal.js"></script>
+<script src="data/edat.js"></script>
+<script src="data/cloze.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
